@@ -11,9 +11,9 @@ import {
 } from "@/lib/seo";
 
 const title =
-  "Sheet Metal Bending, Cutting & Fabrication Services in Surat";
+  "Sheet Metal Bending Services in Surat | CNC Press Brake, Laser Cutting & Plasma Cutting";
 const description =
-  "Explore CNC press brake bending, sheet metal shearing cutting, CNC laser cutting, CNC plasma cutting, plate rolling, profile cutting, base plates, and custom fabrication services from Balaji Engineering Works through metalsheetbending.com.";
+  "Balaji Engineering Works offers complete sheet metal bending services in Surat — CNC press brake bending, sheet metal shearing, CNC laser cutting, CNC plasma cutting, plate rolling, profile cutting, and custom heavy fabrication.";
 
 export const metadata = buildMetadata({
   title,
