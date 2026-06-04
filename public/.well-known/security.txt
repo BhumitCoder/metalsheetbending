@@ -1,5 +1,5 @@
-Contact: mailto:info@balajiengineering.in
+Contact: mailto:mayankpokiya3@gmail.com
 Expires: 2027-05-10T00:00:00.000Z
 Preferred-Languages: en, hi, gu
-Canonical: https://metalsheetbending.com/.well-known/security.txt
-Policy: https://metalsheetbending.com/contact
+Canonical: https://www.metalsheetbending.com/.well-known/security.txt
+Policy: https://www.metalsheetbending.com/contact

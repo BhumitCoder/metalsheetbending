@@ -2,7 +2,44 @@
   "permissions": {
     "allow": [
       "Bash(ls:*)",
-      "WebFetch(domain:www.metalsheetbending.com)"
+      "WebFetch(domain:www.metalsheetbending.com)",
+      "Read(//c/Users/STAFF1/Downloads/cncplatebending/app/**)",
+      "Read(//c/Users/STAFF1/Downloads/sheetmetalbendingworks/app/**)",
+      "Read(//c/Users/STAFF1/Downloads/Balaji-Dynamic-Site/app/**)",
+      "Read(//c/Users/STAFF1/Downloads/cncplatebending/src/lib/**)",
+      "Read(//c/Users/STAFF1/Downloads/sheetmetalbendingworks/src/lib/**)",
+      "Read(//c/Users/STAFF1/Downloads/Balaji-Dynamic-Site/src/lib/**)",
+      "Read(//c/Users/STAFF1/Downloads/cncplatebending/**)",
+      "Read(//c/Users/STAFF1/Downloads/sheetmetalbendingworks/**)",
+      "Read(//c/Users/STAFF1/Downloads/Balaji-Dynamic-Site/**)",
+      "Bash(find:*)",
+      "Bash(powershell.exe -Command:*)",
+      "Bash(/tmp/verify_aria.ps1:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File:*)",
+      "WebFetch(domain:developers.google.com)",
+      "WebFetch(domain:schema.org)",
+      "Bash(python3:*)",
+      "Bash(\"/c/Users/STAFF1/Downloads/temp_fix.py\":*)",
+      "Bash(python:*)",
+      "Bash(/c/temp_seo_fix2.py:*)",
+      "Bash(printf:*)",
+      "Bash(done)",
+      "Read(//c/Users/STAFF1/Downloads/metalsheetbending/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\STAFF1\\Downloads\\cncplatebending\\app",
+      "C:\\Users\\STAFF1\\Downloads\\sheetmetalbendingworks\\app",
+      "C:\\Users\\STAFF1\\Downloads\\Balaji-Dynamic-Site\\app",
+      "C:\\Users\\STAFF1\\Downloads\\cncplatebending\\public",
+      "C:\\Users\\STAFF1\\Downloads\\sheetmetalbendingworks\\public",
+      "C:\\Users\\STAFF1\\Downloads\\Balaji-Dynamic-Site\\public",
+      "C:\\Users\\STAFF1\\Downloads\\cncplatebending\\src\\lib",
+      "C:\\Users\\STAFF1\\Downloads\\sheetmetalbendingworks\\src\\lib",
+      "C:\\Users\\STAFF1\\Downloads\\Balaji-Dynamic-Site\\src\\lib",
+      "C:\\Users\\STAFF1\\Downloads\\Balaji-Dynamic-Site",
+      "\\tmp",
+      "C:\\Users\\STAFF1\\Downloads",
+      "C:\\"
     ]
   }
 }
