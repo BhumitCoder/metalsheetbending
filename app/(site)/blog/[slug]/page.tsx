@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { getPublicBlogBySlugFromFirestore, getPublicBlogsFromFirestore } from "@/lib/firestore/publicBlogsServer";
 import { buildMetadata, createBlogPostingJsonLd, createBreadcrumbJsonLd, createWebPageJsonLd } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 export async function generateStaticParams() {
   try {

@@ -107,7 +107,7 @@ export function BlogForm({
         await addBlog(payload);
       }
 
-      await revalidateBlogCache();
+      await revalidateBlogCache(payload.slug);
       onSaved();
       onClose();
     } catch (error_) {
