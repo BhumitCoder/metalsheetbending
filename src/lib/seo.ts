@@ -518,8 +518,12 @@ export function createProductJsonLd(product: Product): SchemaObject {
       "@type": "Offer",
       url: absoluteUrl(`/products/${product.id}`),
       priceCurrency: "INR",
-      price: "0",
-      priceValidUntil: new Date(new Date().getFullYear() + 1, 11, 31).toISOString().split("T")[0],
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        priceCurrency: "INR",
+        priceType: "https://schema.org/InvoicePrice",
+        description: `Contact ${siteConfig.name} for pricing on ${product.title}. Price depends on quantity, material, and specifications.`,
+      },
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
       seller: {
@@ -534,6 +538,7 @@ export function createProductJsonLd(product: Product): SchemaObject {
         "@type": "OfferShippingDetails",
         shippingRate: {
           "@type": "MonetaryAmount",
+          value: 0,
           currency: "INR",
         },
         shippingDestination: {
